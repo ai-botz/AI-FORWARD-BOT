@@ -6,7 +6,7 @@ import os
 class Config:
     API_ID = os.environ.get("API_ID", "25443947")
     API_HASH = os.environ.get("API_HASH", "ab4cd800dac7c9a36314ee83800adba8")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6991949836:AAGglOW0gXt_aFxAJrAqSCBywmXesUT-wj8") 
     BOT_SESSION = os.environ.get("BOT_SESSION", "ai-forward-bot") 
     DB_URL = os.environ.get("DB_URL", "mongodb+srv://haroonhassan3:haroonhassan3@haroonhassan3.7zzzhoe.mongodb.net/?retryWrites=true&w=majority")
     DB_NAME = os.environ.get("DB_NAME", "haroonhassan3")
