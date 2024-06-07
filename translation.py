@@ -1,11 +1,3 @@
-# Jishu Developer 
-# Don't Remove Credit 🥺
-# Telegram Channel @Madflix_Bots
-# Backup Channel @JishuBotz
-# Developer @JishuDeveloper
-
-
-
 
 import os
 from config import Config
@@ -19,7 +11,7 @@ class Translation(object):
   
 ➻ Click Help Button To Know More About Me
   
-<b>Bot Is Made By @Madflix_Bots</b>"""
+<b>Bot Is Made By @the_ai_botz</b>"""
 
 
   HELP_TXT = """<b><u>🛠️ Help</b></u>
@@ -53,9 +45,9 @@ class Translation(object):
   ABOUT_TXT = """<b>🤖 My Name :</b> {}
 <b>📝 Language :</b> <a href='https://python.org'>Python 3</a>
 <b>📚 Library :</b> <a href='https://pyrogram.org'>Pyrogram 2.0</a>
-<b>🚀 Server :</b> <a href='https://heroku.com'>Heroku</a>
-<b>📢 Channel :</b> <a href='https://t.me/Madflix_Bots'>Madflix Botz</a>
-<b>🧑‍💻 Developer :</b> <a href='https://t.me/CallAdminRobot'>Jishu Developer</a>
+<b>🚀 Server :</b> <a href='https://pythonanywhere.com'>Python Anywhere</a>
+<b>📢 Channel :</b> <a href='https://t.me/the_ai_botz'>AI BOTZ</a>
+<b>🧑‍💻 Developer :</b> <a href='https://t.me/ai_botz_owner_bot'>AI DEVELOPER</a>
 
 <b>♻️ Bot Made By :</b> @Madflix_Bots"""
   
@@ -137,18 +129,3 @@ Before Forwarding The Messages Click The Yes Button Only After Checking The Foll
 <i>° If The <b>Source Chat</b> Is Private Your Userbot Must Be Member Or Your Bot Must Be Admin In There Also</i>
 
 <b>If The Above Is Checked Then The Yes Button Can Be Clicked</b>"""
-
-
-
-
-
-
-
-
-
-
-# Jishu Developer 
-# Don't Remove Credit 🥺
-# Telegram Channel @Madflix_Bots
-# Backup Channel @JishuBotz
-# Developer @JishuDeveloper
