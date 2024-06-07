@@ -19,7 +19,7 @@ CLIENT = CLIENT()
 
 
 
-@Client.on_message(filters.private & filters.command(['setforbot']))
+@Client.on_message(filters.private & filters.command(['settings']))
 async def settings(client, message):
     text="<b>Change Your Settings As Your Wish</b>"
     await message.reply_text(
