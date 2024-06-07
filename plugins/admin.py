@@ -9,7 +9,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 botStartTime = time.time()
 
 
-@Client.on_message(filters.private & filters.command(["ping2", "p"]))
+@Client.on_message(filters.private & filters.command(["ping", "p"]))
 async def ping(_, message):
     start_t = time.time()
     rm = await message.reply_text("Pinging....", quote=True)
