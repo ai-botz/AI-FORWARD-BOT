@@ -74,7 +74,7 @@ async def run(bot, message):
         return 
     try:
         title = (await bot.get_chat(chat_id)).title
-  #  except ChannelInvalid:
+  #except ChannelInvalid:
         #return await fromid.reply("**Given source chat is copyrighted channel/group. you can't forward messages from there**")
     except (PrivateChat, ChannelPrivate, ChannelInvalid):
         title = "private" if fromid.text else fromid.forward_from_chat.title
@@ -98,15 +98,3 @@ async def run(bot, message):
         reply_markup=reply_markup
     )
     STS(forward_id).store(chat_id, toid, int(skipno.text), int(last_msg_id))
-
-
-
-
-
-
-
-# Jishu Developer 
-# Don't Remove Credit 🥺
-# Telegram Channel @Madflix_Bots
-# Backup Channel @JishuBotz
-# Developer @JishuDeveloper
