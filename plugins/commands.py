@@ -1,12 +1,3 @@
-# Jishu Developer 
-# Don't Remove Credit 🥺
-# Telegram Channel @Madflix_Bots
-# Backup Channel @JishuBotz
-# Developer @JishuDeveloper
-
-
-
-
 import os
 import sys
 import asyncio 
@@ -18,13 +9,13 @@ from pyrogram import Client, filters, enums, __version__ as pyrogram_version
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, InputMediaDocument
 
 main_buttons = [[
-        InlineKeyboardButton('📢 Updates', url='https://t.me/Madflix_Bots'),
-        InlineKeyboardButton('💬 Support', url='https://t.me/MadflixBots_Support')
+        InlineKeyboardButton('📢 Updates', url='https://t.me/the_ai_botz'),
+        InlineKeyboardButton('💬 Support', url='https://t.me/ai_botz__Support')
         ],[
         InlineKeyboardButton('🛠️ Help', callback_data='help'),
         InlineKeyboardButton('🩷 About', callback_data='about')
         ],[
-        InlineKeyboardButton('🧑‍💻 Developer 🧑‍💻', url='https://t.me/CallAdminRobot')
+        InlineKeyboardButton('🧑‍💻 Developer 🧑‍💻', url='https://t.me/ai_botz_owner_bot')
         ]]
 
 
@@ -37,9 +28,9 @@ async def start(client, message):
     if not await db.is_user_exist(user.id):
         await db.add_user(user.id, user.first_name)
     reply_markup = InlineKeyboardMarkup(main_buttons)
-    jishubotz = await message.reply_sticker("CAACAgUAAxkBAAECEEBlLA-nYcsWmsNWgE8-xqIkriCWAgACJwEAAsiUZBTiPWKAkUSmmh4E")
+    aibotz1 = await message.reply_sticker("CAACAgQAAxkBAAEMQOJmYrZ4hKbILO-jhH3AMJKrmn-iOAACCgMAAnJxFyWBhA2BBVvOrjUE")
     await asyncio.sleep(2)
-    await jishubotz.delete()
+    await aibotz1.delete()
     text=Translation.START_TXT.format(user.mention)
     await message.reply_text(
         text=text,
@@ -123,14 +114,3 @@ async def status(bot, query):
         parse_mode=enums.ParseMode.HTML,
         disable_web_page_preview=True,
     )
-    
-
-
-
-
-
-# Jishu Developer 
-# Don't Remove Credit 🥺
-# Telegram Channel @Madflix_Bots
-# Backup Channel @JishuBotz
-# Developer @JishuDeveloper
