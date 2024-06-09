@@ -31,6 +31,7 @@ async def start(client, message):
     aibotz1 = await message.reply_sticker("CAACAgQAAxkBAAEMQOJmYrZ4hKbILO-jhH3AMJKrmn-iOAACCgMAAnJxFyWBhA2BBVvOrjUE")
     await asyncio.sleep(2)
     await aibotz1.delete()
+    await message.reply_photo("https://telegra.ph/file/0b291fe6b60bdebe2c0df.jpg", reply_markup=reply_markup)
     text=Translation.START_TXT.format(user.mention)
     await message.reply_text(
         text=text,
