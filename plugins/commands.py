@@ -30,7 +30,6 @@ async def start(client, message):
     if not await db.is_user_exist(user.id):
         await db.add_user(user.id, user.first_name)
     reply_markup = InlineKeyboardMarkup(main_buttons)
-    await message.reply_photo("https://telegra.ph/file/0b291fe6b60bdebe2c0df.jpg", reply_markup=reply_markup)
     aibotz1 = await message.reply_sticker("CAACAgQAAxkBAAEMQOJmYrZ4hKbILO-jhH3AMJKrmn-iOAACCgMAAnJxFyWBhA2BBVvOrjUE")
     await asyncio.sleep(2)
     await aibotz1.delete()
